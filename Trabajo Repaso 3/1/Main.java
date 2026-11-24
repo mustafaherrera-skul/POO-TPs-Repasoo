@@ -1,10 +1,10 @@
 public class Main {
     
     public static void main(String[] args) {
-        LibroDigital ld1 = new LibroDigital("Las aventuras de pepito");
+        LibroDigital ld1 = new LibroDigital("Cien años de soledad");
         ld1.mostrarDescripcion();
 
-        LibroAudio la1 = new LibroAudio("Las aventuras de pepito");
-        la1.mostrarDescripcion();
+        Audiolibro a1 = new Audiolibro("El Principito");
+        a1.mostrarDescripcion();
     }
 }

@@ -1,0 +1,7 @@
+1. Crear una clase MaterialDigital con el atributo privado titulo, un constructor, un getter y el método mostrarDescripcion(), que imprima «Material disponible en la biblioteca digital».
+Crear las subclases LibroDigital y Audiolibro. Ambas deben sobrescribir mostrarDescripcion() usando @Override. LibroDigital debe mostrar el título y el mensaje «Se puede leer en pantalla»; Audiolibro debe mostrar el título y «Se puede escuchar».
+En Main, crear un LibroDigital y un Audiolibro y ejecutar mostrarDescripcion() en ambos. No modificar el método original de MaterialDigital.
+
+2. Crear una clase MedioPago con el atributo privado titular, constructor, getter y un método procesarPago(double monto) que muestre «Procesando pago por $[monto]».
+Crear las subclases Tarjeta y BilleteraVirtual. Tarjeta debe agregar el atributo privado ultimosCuatroDigitos; BilleteraVirtual debe agregar el atributo privado nombreAplicacion. Cada subclase debe tener constructor y sobrescribir procesarPago(double monto), mostrando el tipo de pago, su información particular y el monto. Utilizar super(...) para inicializar titular.
+En Main, crear un objeto de cada subclase y procesar un pago de prueba con cada uno. Validar que el monto sea mayor que cero antes de informar que se procesó el pago. No es necesario implementar pagos reales.
